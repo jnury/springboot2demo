@@ -1,0 +1,6 @@
+#All our actuator endpoints can be accessed without requiring authentication
+management:
+  endpoints:
+    web:
+      exposure.include: "*"
+      base-path: "/admin"
